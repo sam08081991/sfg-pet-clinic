@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>sfg-pet-clinic</name>
     <description>SFG Pet Clinic Project</description>
 
@@ -46,6 +46,8 @@
                     <configuration>
                         <goals>install</goals>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
+                        <localCheckout>true</localCheckout>
+                        <pushChanges>false</pushChanges>
                     </configuration>
                 </plugin>
             </plugins>
@@ -55,7 +57,7 @@
         <connection>scm:git:ssh://git@github.com:sam08081991/sfg-pet-clinic.git</connection>
         <developerConnection>scm:git:git@github.com:sam08081991/sfg-pet-clinic.git</developerConnection>
         <url>https://github.com/sam08081991/sfg-pet-clinic</url>
-        <tag>sfg-pet-clinic-0.0.1</tag>
+        <tag>HEAD</tag>
   </scm>
 
 </project>
