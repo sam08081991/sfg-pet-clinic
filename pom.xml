@@ -52,9 +52,10 @@
         </pluginManagement>
     </build>
     <scm>
-        <url>https://github.com/sam08081991/sfg-pet-clinic.git</url>
-        <connection>scm:git:https://github.com/sam08081991/sfg-pet-clinic.git</connection>
-      <tag>sfg-pet-clinic-0.0.1</tag>
+        <connection>scm:git:git@github.com:sam08081991/sfg-pet-clinic.git</connection>
+        <developerConnection>scm:git:git@github.com:sam08081991/sfg-pet-clinic.git</developerConnection>
+        <url>git@github.com:sam08081991/sfg-pet-clinic.git</url>
+        <tag>HEAD</tag>
   </scm>
 
 </project>
