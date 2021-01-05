@@ -1,8 +1,6 @@
 package com.springframework.sfgpetclinic.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,7 +10,8 @@ import java.io.Serializable;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
+@Getter
+@Setter
 @MappedSuperclass
 public class BaseEntity implements Serializable {
 

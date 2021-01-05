@@ -1,9 +1,6 @@
 package com.springframework.sfgpetclinic.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
+import lombok.*;
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
