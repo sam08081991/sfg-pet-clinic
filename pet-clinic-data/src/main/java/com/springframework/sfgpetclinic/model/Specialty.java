@@ -3,7 +3,7 @@ package com.springframework.sfgpetclinic.model;
 import lombok.Data;
 
 @Data
-public class Speciality extends BaseEntity {
+public class Specialty extends BaseEntity {
 
     private String description;
 
